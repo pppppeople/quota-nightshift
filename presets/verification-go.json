@@ -1,0 +1,1 @@
+{ "level": "V2", "commands": ["go", "test", "./..."], "degrade": { "level": "V1", "commands": ["go", "vet", "./..."] } }

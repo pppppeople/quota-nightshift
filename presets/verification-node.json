@@ -1,0 +1,1 @@
+{ "level": "V2", "commands": ["node", "--test"], "note": "Node built-in test runner; scans the project for *.test.js" }

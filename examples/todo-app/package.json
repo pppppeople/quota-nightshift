@@ -1,0 +1,9 @@
+{
+  "name": "todo-app-example",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "type": "commonjs",
+  "version": "0.0.1"
+}

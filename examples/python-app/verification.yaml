@@ -1,0 +1,15 @@
+# The same protocol, a Python project: only the verification config changes.
+# Hosts read a per-project verification declaration like this; the protocol
+# core never learns Python (or Node, or Go) — it learns exit codes and
+# evidence (SPEC §9).
+
+project:
+  name: python-app-example
+  language: python
+
+verification:
+  level: V2
+  commands:
+    - python3 -m pytest -q
+  timeout_seconds: 600
+  on_missing_tests: degrade_to_V1   # fall back to static checks, and say so

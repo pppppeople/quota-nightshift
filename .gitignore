@@ -1,0 +1,10 @@
+node_modules/
+runs/*
+!runs/.gitkeep
+nightshift.json
+
+.env
+.env.*
+*.log
+data/
+*.db

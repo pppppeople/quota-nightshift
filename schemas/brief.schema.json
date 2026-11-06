@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "brief",
+  "type": "object",
+  "required": [
+    "protocol_version",
+    "artifact_id",
+    "type",
+    "run_id",
+    "task_id",
+    "parent_artifact_id",
+    "created_at",
+    "producer",
+    "task",
+    "scope",
+    "forbidden",
+    "verification"
+  ]
+}

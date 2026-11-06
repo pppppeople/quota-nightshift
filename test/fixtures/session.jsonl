@@ -1,0 +1,1 @@
+{"type":"event_msg","payload":{"type":"token_count","token_count":{"rate_limits":{"primary":{"used_percent":42,"resets_at":1799999999,"window_minutes":300},"secondary":{"used_percent":11,"resets_at":1800600000,"window_minutes":10080}}}}}
